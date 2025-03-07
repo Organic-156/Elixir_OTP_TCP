@@ -45,17 +45,16 @@ end
 ### Starting the Server
 
 Open a Terminal in the Project Directory
-
 Paste this command to start the Server
 
 ```
 iex -S mix
-# This command start a host at PORT 6666
-# To change 
-# 1. goto /lib/elixir_client.exs and change the port number
-# 2. goto /lib/proxy_server.exs and change the port number in the start link to which server you want it to listen to 
-# 3. goto /lib/application.ex and in the children change the port number for the Chat.ProxyServer
 ```
+# This command start a host at PORT 6666 on default
+To change 
+1. goto /lib/elixir_client.exs and change the port number
+2. goto /lib/proxy_server.exs and change the port number in the start link to which server you want it to listen to 
+3. goto /lib/application.ex and in the children change the port number for the Chat.ProxyServer
 
 ### Connecting as a Client
 
